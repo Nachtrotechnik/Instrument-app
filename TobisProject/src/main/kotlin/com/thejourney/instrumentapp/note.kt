@@ -12,7 +12,7 @@ enum class Accidental {
 data class Note(
     val name: String,         // "C", "D", "E", "F", "G", "A", "B"
     val accidental: Accidental, // NATURAL, SHARP, FLAT
-    val octave: Int,          // e.g., 4 for C4 (Middle C)
+    val octaveNumber: Int,          // e.g., 4 for C4 (Middle C)
     val keyNumber: Int        // The specific piano key number (1-88)
 ) {
     init {

@@ -1,7 +1,7 @@
 package com.thejourney.instrumentapp
 
 data class ColouredKey(
-    val key: Key,
+    val musicalKey: Key,
     val color: Color
 )
 
